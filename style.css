@@ -1,0 +1,475 @@
+        .navbar-brand img
+        {height: 100px;
+            width: 150px;
+          padding-left: 30px;
+
+        }
+
+        #nav-bar
+        {position: sticky;
+         top: 0;
+         z-index: 10;   
+
+        }
+
+        .navbar-nav li
+        {padding: 0 10px;}
+
+         .navbar-nav a
+        {float:right;
+         text-align: left;
+        }
+
+        #nav-bar ul li a:hover
+        {color:blue!important;}
+
+        .navbar
+        {background:ff;}
+
+        .navbar-toggler
+        {border: none!important;}
+
+        .nav-link
+        {color:black!important;
+         font-weight: 600;
+         font-size: 16px;   
+
+        }
+
+
+        /*---slider---*/
+        #slider
+        {width: 100%;
+            }
+
+        .carousel-caption
+        {top: 50%;
+         transform: translateY(-50);
+            bottom:inital!important;
+        }
+
+
+        #carousel-caption h5
+        {color:#ffffff;
+         font-size: 42px;
+
+        }
+
+        /*---about---*/
+           #about
+        {padding-top: 50px;
+         padding-bottom: 50px;
+         color:black;
+
+        }
+
+        #about .btn
+        {margin-top: 20px;
+         margin-bottom: 30px;}
+
+        .about content
+        {padding-top: 20px;}
+
+        .white1 .img
+{height: 200px;
+width: 200px;
+
+    
+}
+
+    
+
+        /*---library---*/
+    #library{
+        background-image:url(image/services.jpg);
+         backgroud-size:cover;
+         background-position:center;
+            color:#efefef!important;
+            background-attachment:fixed;
+            padding-top:50px;
+            padding-bottom:50px;
+
+             }   
+
+        #library h1{
+        text-align: center;
+         color: #000!important;
+         padding-bottom: 10px;  
+
+        }
+
+           #services h1::after
+        {content: "";
+          background: #000;
+            display: block;
+            height: 3px;
+            width: 170px;
+            margin: 20px auto 5px;
+        }
+
+    #services p {
+        color: #000;
+       font-size: 20px;
+        margin-top: 20px;
+
+    }
+
+    #services h3
+    {
+         color: #000;
+
+    }
+
+   
+    .services .col-md-3:hover 
+    {background: #007bff;
+     cursor: pointer;
+        transition: 0.7s;
+
+    }
+
+
+                  /*---community---*/
+    #community
+    {padding-top: 50px;
+        padding-bottom: 50px;
+    color:#555;
+
+    }
+
+
+    h1{text-align: center;
+       color: #555!important;
+        padding-bottom: 10px;
+    }
+
+    h1::after
+    {content: "";
+     background: #007bff;
+        height: 3px;
+        width: 170px;
+        margin: 20px;auto 5px;
+
+        }
+
+
+    /*---price plan---*/
+    #Price Plan
+    {padding: 40px 0;
+        background: #efefef;}
+
+    .single-price
+    {margin: 10px auto;
+        display: inline;
+        float: left;
+        width: 100%;
+        background-color: #fff;
+        transition: 0.5s;}
+
+    .single-price:hover
+    {box-shadow: 0 2px 20px #333;
+
+    }
+
+    .price-head
+    {background-color:#2196f3;
+        display: inline;
+        float: left;
+        padding: 10px 5px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .price-head h2
+    {color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding: 5px;
+        text-transform: uppercase;
+        }
+
+    .price-head p
+    {
+        font-size: 25px;
+        color: #ccc;
+        font-weight: bold;
+        line-height: 30px;
+        }
+    #Price Plan span
+    {
+        font-size: 15px;
+        }
+    .price-content
+    {display: inline;
+        float: left;
+        width: 100%;
+        padding: 0 15px;
+        }
+    .price-content ul li
+    {border-bottom: 1px solid#efefef;
+        padding: 15px 10px;
+        list-style: none;
+        }
+    ul li:last-child
+    { border: none;}
+
+    .fa-check
+    {color: green;
+     margin-right: 10px;
+        font-size: 20px;
+    }
+    .fa-times
+    {color: red;}
+
+    .price button
+    {display: inline;
+        float: left;
+        padding: 15px 15px 30px;
+        text-align: center;
+        width: 100%;
+        }
+    .buy-btn
+    {background-color: #2196fe;
+        border-radius: 3px;
+        display: inline-block;
+        font-size: 18px;
+        padding: 15px 50px;
+        transition: 0.5s;
+        }
+    .buy-btn:hover
+    { border-color: 1px solid #fff;
+        background-color: #3f51b5;
+        }
+
+    a
+    {text-decoration: none!important;
+        color: #fff!important;
+
+    }
+
+    /*---testimonial---*/
+      #testimonials
+    {padding-top: 50px;
+     padding-bottom: 50px;
+        }
+
+    #testimonials .row
+    {
+    margin-top: 30px;
+    }
+
+    .col-md-4 
+    {
+        margin: 40px auto;
+    }
+
+    .profile
+    {
+    padding: 70px 10px 10px;
+     background-color: #efefef;
+     }
+
+    .user
+    {width: 120px;
+     height: 120px;
+     border-radius: 50%;
+        }
+
+    .profile
+    {
+    top: 60px;
+     position: absolute;
+     left: cacl(50%-60%);
+     border: 10px solid #fff;
+
+    }
+
+    .profile h3
+    {
+    font-size: 20px;
+     margin-top: 15px;
+     color: #007bff;
+    }
+
+    #testimonials span
+    {
+    font-size: 12px;
+     color: #333;
+     }
+
+    blockquote
+    {font-size: 16px;
+     line-height: 30px;
+     }
+
+
+    blockquote::before
+    {content: '\93'; font-size: 50px;
+     color: #007bff;
+     position: relative;
+     line-height: 20px;
+     bottom: -15px;
+     right: 5px;
+     }
+
+        blockquote::after
+    {content: '\94';
+        font-size: 50px;
+     color: #007bff;
+     position: relative;
+     line-height: 10px;
+     bottom: -15px;
+     left: 5px;
+     }
+
+    .profile:hover
+    {
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+     cursor: pointer;
+     transition: 0.5s;
+
+    }
+
+    /*---Get In Touch---*/
+
+     #contact
+    {background: #efefef;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     color: #777;
+        }
+
+    .contact-form
+    {padding: 15px;
+
+    }
+
+    .form-control
+{border-radius: 0 !important;
+ border: none !important;
+ }
+
+::placeholder
+{color: #999 !important;}
+
+.follow
+{background: #fff;
+ padding: 10px;
+ 
+}
+
+.afeez
+{margin-top: 10px;
+  padding-top: 50px;
+ }
+
+.fa
+{margin: 16px;
+ color: #007bff;
+ font-weight: bold;
+    
+}
+
+
+.contact-info
+{margin-top: 310px;}
+
+
+
+/*---footer---*/
+#footer
+{background: #333;
+ color: #fff;
+ padding: 12px;
+ 
+    }
+
+.bname h3{
+    
+    color: #000;
+}
+
+
+.white img{
+ padding-top: 80px;
+ padding-bottom: 60px;
+ 
+    
+}
+
+
+#about h2{
+    
+    display: inline-flex;
+}
+
+
+
+
+/*---media quariy---*/
+@media only screen and (max-width: 991px ){
+    
+    #slider {
+  margin-left: 218px;
+    }
+     
+    .white img {
+        padding-left: 373px;
+        padding-right: 50px;
+        
+    
+    }
+
+   #library{
+            margin-right: -429px;
+    }
+
+    .row services  {
+               padding-right: 379px;
+               padding-left: 451px;
+    }
+
+    .white {
+        
+            padding-left: 274px;
+    }
+    #footer{
+            margin-right: -513px;
+    }
+    .white1 img{
+        
+            padding-left: 116px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
